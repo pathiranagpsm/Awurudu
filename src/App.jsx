@@ -26,7 +26,7 @@ const SPORTS_CONFIG = {
     icon: <Medal className="w-6 h-6 md:w-8 md:h-8" />,
     players: 6,
     allowedGenders: ['Men'],
-    maxTeams: 15,
+    maxTeams: 10,
     description: "එක් පිලකට ක්‍රීඩකයින් 6යි. (පිරිමි පමණයි)"
   },
   Elle: {
@@ -339,7 +339,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row justify-center items-center gap-3 text-slate-300 text-sm font-medium">
               <div className="w-full sm:w-auto flex items-center justify-center gap-2 bg-zinc-900/50 px-4 md:px-5 py-2.5 rounded-xl md:rounded-2xl border border-white/5 backdrop-blur-md shadow-xl">
                 <Calendar className="w-4 h-4 md:w-5 md:h-5 text-amber-500" />
-                <span>දිනය පසුව දැනුම් දෙනු ලැබේ</span>
+                <span>අප්‍රේල් 11, 12</span>
               </div>
               <div className="w-full sm:w-auto flex items-center justify-center gap-2 bg-zinc-900/50 px-4 md:px-5 py-2.5 rounded-xl md:rounded-2xl border border-white/5 backdrop-blur-md shadow-xl">
                 <MapPin className="w-4 h-4 md:w-5 md:h-5 text-rose-500" />
@@ -577,7 +577,7 @@ export default function App() {
                           <div>
                             <label className="text-[10px] md:text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2 mb-2">
                               <ChevronRight className="w-3 h-3 md:w-4 md:h-4 text-amber-500" />
-                              දුරකථන අංකය <span className="text-rose-500">*</span>
+                              Whatsapp දුරකථන අංකය <span className="text-rose-500">*</span>
                             </label>
                             <div className="relative group">
                               <div className="absolute inset-y-0 left-0 pl-3.5 md:pl-4 flex items-center pointer-events-none text-slate-500 group-focus-within:text-amber-400 transition-colors">
