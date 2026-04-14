@@ -42,7 +42,7 @@ const SPORTS_CONFIG = {
     icon: <Trophy className="w-6 h-6 md:w-8 md:h-8" />,
     players: 6,
     allowedGenders: ['Men', 'Women'],
-    maxTeams: 10,
+    maxTeams: 20,
     description: "එක් පිලකට ක්‍රීඩකයින් 6යි. (පිරිමි සහ කාන්තා අංශ)"
   }
 };
